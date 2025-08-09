@@ -32,7 +32,7 @@ Beyond improving management capabilities, the project fosters internal transpare
 
   * `gitlab`
   * `psycopg2`
-  * `requests`
+  * `requests` (used for REST and GraphQL API calls)
 
 ## 5. Project Architecture
 
