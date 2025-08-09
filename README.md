@@ -34,6 +34,10 @@ Beyond improving management capabilities, the project fosters internal transpare
   * `psycopg2`
   * `requests` (used for REST and GraphQL API calls)
 
+* Additional Tools:
+
+  * `DBeaver` (used for database modeling, querying, and managing PostgreSQL)
+
 ## 5. Project Architecture
 
 
