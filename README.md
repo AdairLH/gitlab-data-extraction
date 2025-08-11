@@ -46,4 +46,8 @@ The entity-relationship diagram below was generated with DBeaver and illustrates
 
 The Python source code responsible for data extraction and loading is located in the src/ folder.
 
+![Dimensional Model Diagram](https://github.com/cordulaflavio/gitlab-data-extraction/blob/main/images/dimensional_model.png)
+
+*Entity-relationship diagram generated with DBeaver.*
+
 
