@@ -44,7 +44,7 @@ The project follows a daily ETL process executed by GitLab, extracting and trans
 
 The entity-relationship diagram below was generated with DBeaver and illustrates the fact and dimension tables created by the script.
 
-The Python extraction script is available in the [`src/gitlab.py`](src/gitlab.py) file.  
+The Python extraction script is available in the [`src/gitlab.py`](src/gitlab_data_extraction.py) file.  
 
 Dependencies are listed in [`requirements.txt`](requirements.txt).
 
