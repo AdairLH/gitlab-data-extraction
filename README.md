@@ -40,5 +40,10 @@ Beyond improving management capabilities, the project fosters internal transpare
 
 ## 5. Project Architecture
 
+The project follows a daily ETL process executed by GitLab, extracting and transforming data from GitLab issues into a dimensional model stored in PostgreSQL.
 
-Talvez uma imagem do dbeaver e do MER? O que mais?
+The entity-relationship diagram below was generated with DBeaver and illustrates the fact and dimension tables created by the script.
+
+The Python source code responsible for data extraction and loading is located in the src/ folder.
+
+
