@@ -4,7 +4,7 @@ Linkedin: www.linkedin.com/in/cordulaflavio
 Date: 2025-02-20
 Description: Script to extract issues, milestones, assignees, and participants from GitLab via API and store them in a PostgreSQL database for later reporting in Power BI and Metabase.
 GitLab Community Edition: v18.2.1
-Python Version: 3.12.3
+Python Version: 3.12.3 
 """
 
 import gitlab
